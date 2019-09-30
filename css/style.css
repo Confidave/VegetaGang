@@ -1,0 +1,280 @@
+/*bg*/
+html{
+  max-width:1260px;
+  height: 940px;
+  margin:auto;
+  background-color:white;
+}
+body{
+  width: 1260px;
+  height: 880px;
+  background-color: #edf2c5;
+}
+.container{
+  position:relative;
+  width: 940px;
+  height: 880px;
+  /*background-color: black;*/
+  margin: 0;
+  left:160px;
+}
+footer {
+  display: flex;
+  width: 1260px;
+  height: 60px;
+  background-color: #778a50;
+  align-items: flex-end;
+}
+/*header*/
+header{
+  padding:0;
+  width: 940px;
+  height: 103px;
+  top: 36px;
+}
+header #vegetagang_logo{
+  position: relative;
+  width: 271px;
+  height: 62px;
+  font-family: Arial;
+  font-size: 44px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #778a50;
+  top: 36px;
+}
+header #social{
+  position:relative;
+  margin:auto;
+  list-style-type: none;
+  padding: 0;
+  width: 940px;
+  height: 62px;
+  overflow: hidden;
+  bottom:20px;
+}
+header #social li{
+  position: relative;
+  float: right; 
+  width: auto;
+  height: 44px;
+  padding-left:10px;
+  top: 24px;
+}
+#btn_line{
+  margin: auto;
+  width: 1px;
+  height: 25px;
+  border-left:1px solid #7d7d7d;
+}
+.sub{
+  width: auto;
+  height: 25px;
+  border: solid 1px #778a50;
+  border-radius: 3px;
+  position: relative;
+  bottom: 5px;
+}
+#join{
+  height: 15px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.57;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+  padding: 5px 7px;
+}
+#login{
+  width: 46px;
+  height: 15px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.57;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+  padding: 5px 7px;
+}
+/*nav_bar*/
+nav ul {
+  margin:auto;
+  list-style-type: none;
+  padding: 0;
+  width: 940px;
+  height: 44px;
+  border-radius: 3px;
+  background-color: #778a50;
+  overflow: hidden;
+}
+nav li { 
+  float: left; 
+  width: auto;
+  height: 44px;
+}
+nav li a {
+  position: relative;
+  width: auto;
+  height: 44px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  padding: 14px 30px;
+  top: 11px;
+}
+nav li a:hover{
+  color: #778a50;
+  background-color: #fbffd3;
+}
+/*main_pic*/
+.main_pic{
+  position: relative;
+  width: 940px;
+  height: 448px;
+  object-fit: contain;
+  top:20px;
+}
+/*vegetapic*/
+#vegetapic_title_box{ 
+  display:block;
+  margin: 0; 
+  position: relative;
+  width: 444px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #778a50;
+  top: 30px;
+}
+#vegetapic_title{
+  display: block;
+  position:relative;
+  width: 98px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  left:30px;
+  top:10px;
+}
+#img_pepper #img_carrot #img_corn{
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+}
+#img_pepper{
+position: relative;
+top: 45px;
+}
+#img_carrot{
+position: relative;
+top: 45px;
+left: 8px;
+}
+#img_corn{
+position: relative;
+top: 45px;
+left:16px;
+}
+/*contact*/
+#contact_title_box{
+  display:block;
+  position: relative;
+  width: 444px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #778a50;
+  left: 496px;
+  bottom: 175px;
+}
+#contact_title{
+  position:relative;
+  width: 69px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  left:30px;
+  top:10px;
+}
+#contact_par_box_pos{
+  display: inline-block;
+  position: absolute;
+  background-color: #f7fbda;
+  height:140px;
+  width: 444px;
+  left: 496px;
+  bottom: 35px;
+}
+#contact_par{
+  position: relative;
+  width: 414px;
+  height: 44px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+  left:15px;
+}
+#contact_info{
+  position: relative;
+  width: 197px;
+  height: 35px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+  left:15px;
+}
+.contact_line{
+  margin:auto;
+  position: relative;
+  width: 414px;
+  height: 1px;
+  border-top: 1px solid #7d7d7d;
+}
+/*copyrights*/
+.copyrights{
+  margin:auto;
+  width: 301px;
+  height: 14px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #edf2c5;
+}
